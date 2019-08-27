@@ -1,132 +1,18 @@
-{
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes"
-
-     }
-}
-
-{
-	"Games":
-	{
-		"id":1,
-
-	"Title - Fruit cut"
-"Platform"
-"Score - 5.0"
-"Genre - genre of the game"
-"Editors_choice-No"
-	
-	}
-
-}
-
-"Games":
-{
-	"id":1,
-	
-	"Title-car drive"
-	"Platform"
-	"Score- 4.0"
-	"Genre- racing"
-	"Editors_choice- Yes"
-     }
-}
-
-   "Games":
-    {
-    	"id":1,
-    	
-    	"Title-zuma"
-    	"Platform"
-    	"Score-9.0"
-    	"Genre-Thinking"
-    	"Editors_choice-Yes"
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
     }
-  {
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes"
-}  
-
-    }
-{
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes"
 }
-
-   }
-{
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes"
-}
-   }
-
-{  
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes" 
-}
-     } 
-
- {
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes"
- }    
-    }
-
- {
-	"Games":
-     {
-     	"id":1,
-
-"Title - Bubble Poppers"
-"Platform"
-"Score - 8.0"
-"Genre - shooting"
-"Editors_choice-Yes"
- } 
-    } 
-
- {
- 	
- }    
+</script>
